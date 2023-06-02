@@ -7,5 +7,5 @@ FROM openjdk:17
 WORKDIR /backend
 EXPOSE 80
 COPY --from=build /backend/build/libs/backend-0.0.1-SNAPSHOT.jar .
-COPY /backend/build/libs/resources/main /backend/backend-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!
+COPY /backend/build/resources/main /backend/backend-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!
 CMD java -jar backend-0.0.1-SNAPSHOT.jar
