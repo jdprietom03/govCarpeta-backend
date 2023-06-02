@@ -46,7 +46,7 @@ public class AuthenticationService {
     private AuthRepository authRepository;
 
     @Autowired
-    private RedisTemplate<String, Object> redisTemplate;
+    // private RedisTemplate<String, Object> redisTemplate;
 
     private Usuario getUserAuthenticated(UserCredentials loginRequest) throws NoSuchAlgorithmException {
         Optional<Usuario> usuarioOptional = usuarioRepository.findById(loginRequest.dni());
@@ -81,9 +81,9 @@ public class AuthenticationService {
         List<String> roles = Collections.singletonList(usuario.getRole());
         String token = generateJwtToken(usuario.getId(), roles);
 
-        if (Objects.nonNull(token)) {
-            saveInRedis(token, userCredentials.dni());
-        }
+        // if (Objects.nonNull(token)) {
+        //     saveInRedis(token, userCredentials.dni());
+        // }
 
 
         return new User(usuario.getId(), usuario.getName(), usuario.getRole(), token);
@@ -113,20 +113,20 @@ public class AuthenticationService {
         return null;
     }
 
-    public void saveInRedis(String token, String username) {
-        String key = REDIS_PREFIX + token;
-        redisTemplate.opsForValue().set(key, username);
-        redisTemplate.expire(key, 1, TimeUnit.HOURS);
-    }
+    // public void saveInRedis(String token, String username) {
+    //     String key = REDIS_PREFIX + token;
+    //     redisTemplate.opsForValue().set(key, username);
+    //     redisTemplate.expire(key, 1, TimeUnit.HOURS);
+    // }
 
     public Claims validateTokenAndAuthenticate(String token) {
         try {
             String key = REDIS_PREFIX + token;
-            String username = (String) redisTemplate.opsForValue().get(key);
+            // String username = (String) redisTemplate.opsForValue().get(key);
 
-            if (Objects.nonNull(username)) {
+            // if (Objects.nonNull(username)) {
                 return Jwts.parser().setSigningKey(JWT_SECRET).parseClaimsJws(token).getBody();
-            }
+            // }
 
         } catch (Exception e) {
         }
