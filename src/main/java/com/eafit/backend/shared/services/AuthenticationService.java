@@ -45,7 +45,7 @@ public class AuthenticationService {
     @Autowired
     private AuthRepository authRepository;
 
-    @Autowired
+    // @Autowired
     // private RedisTemplate<String, Object> redisTemplate;
 
     private Usuario getUserAuthenticated(UserCredentials loginRequest) throws NoSuchAlgorithmException {
