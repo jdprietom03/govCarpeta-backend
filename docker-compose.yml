@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # networks:
+    #   - my-network
+    ports:
+    - 80:80
+    - 6379:6379
+    - 3306:3306

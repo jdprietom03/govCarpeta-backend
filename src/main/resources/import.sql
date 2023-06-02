@@ -1,0 +1,1 @@
+INSERT INTO Operador (operator_id, operator_name, host, port, ip) VALUES(10006, "Operator's Gambit", "localhost", 80, "127.0.0.1");

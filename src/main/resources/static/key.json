@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "govcarpeta-6c1cc",
+  "private_key_id": "0b756a810c5a85673999654aedd2c12a785d1520",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC2ZnJH3sZTwUBF\nnDFCqZhW4xKX+n3WtGwKU9uAOobiGG1vCxN1qGXYadHIE84n6QvAOpVjs1KD0pXM\npQpaek6q7coDGSgbVaSud58MoXMfY61I7Khv+RoM7XSuI+garO+BNGTjXJbgshPI\nyDYn5BOLFYXFi4g871+s4vuZG5rOiNT9K9oAbsXRH/8EzGRH4IyZXNkuvChavlSj\n9J5xWeC0YG4iqNlV7abQdQllRMpX/MvNwoWoriOfN4PUuTQUwlnmXn+xewieKCp8\n7ZacUfi/DJjnwgFzBlq9e9LkI+M1MnzrDifWo+OZglNajkDzIeliNMAlNjZJ+lcN\nXNt3bJkxAgMBAAECggEAB023QI0S3SJ9PVkeWKOYpJoERS7T84RXJluEC/CYznYM\nVu7wze9637bunhe7U7ovYBIe2zzzjkqHXwgyXIi0z7LxbNa8CWQp61m03Hk2gxV0\nFQ1AE8O77E3LZ0TezWEK8hFNnOEFomR4o4iIyprr9JzDz3/H0JDRM7rSOKfag6L1\nSGzKXLARqQjufbbzhl74kHuNeJO8eNm2SkFqxr+BbSj6RfqnjPGiMU5yVvFgNjzf\nCu/ug99EWwoJroKRlxk9K4l0a0PdM0ArrhvN43FAWJa8ApC+hEyNg2LJOzvzBfDj\n7bTOPfXs6ILUXdITh09b4E26Kj+1hfjB4HMlBylc1QKBgQDfjv7yknUCO8nyfiNJ\nyAkpxzgEp9gfmFaOmCnqX+4FvFWeuQVYo56jqpP6AzmIqngpFJwoLNWHbYcjm+41\nmMnz6GIz0sc5vGW+DQZ+okMseWr4/poyFnz2vdE2c1pjESs3v8TXwAyKFkBbGbfT\n/kCO7RgnvNXnF1E5NNeWIW7DVwKBgQDQ3nPOpLM85AsJmEtKy8SGhS6mCi13vNOs\nc4ASYt7anH9iKCrz8kkqT9LGFRAef6jq7nmhu1rwX1g79N8Kkwd0N8Ea7OXnvzB4\ngasyMdNFmuyfubW+DR8OWki0ZdLwKZPvhHTsoD4P2zLSZcllvSsu50m8hj1oTOAI\n1QGu2+T6twKBgGj0iVz4xVY3G6hs78RD1Yl3riUBZ8XtjzWC2qrePrESql/KHWhv\n6JqOCsrlmK1A2wjuVCHIarcaBMgC/OLMyINqJjCOVFoWyO1g0BvDsiW/Gymq3lmF\nlUWB+CbIITdBaDjUH2XrE/gAWlZqzJMKWuS/Cwgc749+svNYi55AM/AhAoGAN1SG\nlxo4RQwgBGWspF7Aa+ZCCkgt7Uc/R7K9HaHFaWIFuKntXvwy95t3uXOA9qNYywtr\nezWXjI+lXxSqNTHnypiudgSFjtOt8m5fPIfIcOrufg2DIJp3PKUcF3XV4DsTbmLH\nWpvEdQzbNLM0G9h15RHuDZv+DnA29QAAVyL3UJcCgYBtlGW/DCiIZ/8bL43Saatd\nwI4wLC2Eur/6cgni1vydyMANO1WTcGVOw3qsl6/Z7agRG0569JUgeeCC86oShDrb\nF+CXFyqjavkuhs/Shf1WCvonmvg/1u9rm20n2AX9lzNo2fGQW0/fMFywQqc5fO3H\n5h4MH+mKBet53Kr4tBxm5w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-6hlj7@govcarpeta-6c1cc.iam.gserviceaccount.com",
+  "client_id": "100114446669290565594",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6hlj7%40govcarpeta-6c1cc.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
